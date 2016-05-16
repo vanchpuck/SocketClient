@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Задаем список настроек-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="@string/pref_host"
+        android:title="@string/pref_host"
+        android:defaultValue="@string/pref_host_default" />
+    <EditTextPreference
+        android:key="@string/pref_port"
+        android:title="@string/pref_port"
+        android:defaultValue="@string/pref_port_default"
+        android:inputType="number" />
+    <EditTextPreference
+        android:key="@string/pref_timeout"
+        android:title="@string/pref_timeout"
+        android:defaultValue="@string/pref_timeout_default"
+        android:inputType="number" />
+    <EditTextPreference
+        android:key="@string/pref_cam_url"
+        android:title="@string/pref_cam_url"
+        android:defaultValue="@string/pref_cam_url_default" />
+</PreferenceScreen>

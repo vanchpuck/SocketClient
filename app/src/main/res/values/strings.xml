@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SocketClient</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="hint_request">Request</string>
+    <string name="hint_response">Response</string>
+
+    <string name="btn_send">Send</string>
+
+    <string name="pref_host">Host</string>
+    <string name="pref_host_default">sintetika.ddns.net</string>
+    <string name="pref_port">Port</string>
+    <string name="pref_port_default">9090</string>
+    <string name="pref_timeout">Timeout (ms)</string>
+    <string name="pref_timeout_default">5000</string>
+    <string name="pref_cam_url">Camera URL</string>
+    <!--<string name="pref_cam_url_default">http://sintetika.ddns.net:8081</string>-->
+    <string name="pref_cam_url_default">http://webcam.st-malo.com/axis-cgi/mjpg/video.cgi?resolution=352x288</string>
+
+</resources>
